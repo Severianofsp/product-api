@@ -5,7 +5,7 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:mysql://${DATASOURCE_URL:localhost}:3306/product-api
+    url: jdbc:mysql://${DATASOURCE_URL:localhost}:3306/${DATASOURCE_DATABASE_NAME:product-api}
     username: ${DATASOURCE_USER:root}
     password: ${DATASOURCE_PASSWORD:password}
   flyway:
