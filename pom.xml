@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>br.com.severiano</groupId>
 	<artifactId>productapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>productApi</name>
 	<description>Manager Product API</description>
 	<properties>
